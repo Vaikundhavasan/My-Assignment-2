@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  display: flex;
+  padding: 10px;
+  margin: 20px;
+}
+
+header {
+  color: red;
+  font-size: 1.5rem;
+}
+
+form {
+  border: 2px solid green;
+  padding: 20px;
+}
+
+input::placeholder {
+  color: blue;
+}
+
+footer {
+  font-size: 0.9rem;
+  font-style: italic;
+}
